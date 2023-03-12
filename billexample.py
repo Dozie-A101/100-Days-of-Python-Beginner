@@ -1,0 +1,5 @@
+total=float(input("Enter the total bill: "))
+num_people = int(input("Enter the total number of people: "))
+print("Each person owes:")
+print(total/num_people)
+input("\n\n\nPress enter to continue")
